@@ -34,5 +34,6 @@ namespace CLOTHES_SHOP.Models
         public DbSet<ProductReview> ProductReviews { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<OrderInfo> OrderInfos { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
     }
 }
